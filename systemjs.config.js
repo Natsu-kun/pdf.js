@@ -30,6 +30,7 @@
     throw new Error('Cannot configure SystemJS');
   }
 
+  var SystemJS = 'node_modules/systemjs/dist/system.js';
   var PluginBabelPath = 'node_modules/systemjs-plugin-babel/plugin-babel.js';
   var SystemJSPluginBabelPath =
     'node_modules/systemjs-plugin-babel/systemjs-babel-browser.js';
